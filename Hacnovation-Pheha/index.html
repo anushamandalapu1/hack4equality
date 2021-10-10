@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-widt, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="swiper.min.css">
+	<link rel="stylesheet" href="aos.css" />
+
+	<title>Pheha Plastic</title>
+</head>
+<body >
+	<!--nav bar start-->
+	<section id="header">
+	<header>
+		<div class="logo">
+		  <img src="images/logo.png" />
+		  <h3>Pheha Plastic</h3>
+		</div>
+		<a href="#" class="hamburger" id="hamburger">
+		  <span class="bar"></span>
+		  <span class="bar"></span>
+		  <span class="bar"></span>
+		</a>
+		<nav>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a  href="#about">About</a></li>
+          <li><a  href="#services">Services</a></li>
+		  <li><a href="#mission">Mission</a></li>
+		  <li><a href="#vision">Vision</a></li>
+		  <li><a href="#opportunity">Opportunity</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+		</nav>
+	  </header>
+	</section>
+	<!-- End Header -->
+
+	  <!-- Home Section -->
+	<section id = "home">
+	<div class="slider">
+		<!-- fade css -->
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>Plastic<br />Recycling</h1>
+				
+			</div>
+			<img src="images/img1.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>Economic<br/>Boost</h1>
+				
+			</div>
+			<img src="images/img2.jpg" style="width: 100%; height: 100%;">
+		</div>
+
+		
+		
+		<div class="myslide fade">
+
+			<div class="txt">
+				<h1>Plastic<br/>Collection</h1>
+				
+			</div>
+			<img src="images/img3.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>Plastic</h1><br/><h1>Reach</h1>
+				
+			</div>
+			<img src="images/img4.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>Plastic<br/>Indisposition</h1>
+				
+			</div>
+			<img src="images/img5.jpg" style="width: 100%; height: 100%;">
+		</div>
+		<!-- /fade css -->
+		
+		<!-- onclick js -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+		</div>
+		<!-- /onclick js -->
+	
+	</div>
+    </section>
+	<!-- End of Home Section -->
+
+ <!-- About Section -->
+ <section id = "about">
+ <div class = "about container">
+ 
+	<section class="text-section" data-aos="fade-right">
+		<h1 id="col-baby">About Pheha Plastic</h1>
+		<p>Pheha Plastic is a new recycling (not-for-profit) company, established in partnership with Hirundo Lesotho.  The bulk of what we do comes down to the use of three machines that transform plastic through a process of shredding and heating, thereby creating beautiful and useful products out of discarded plastic.
+		</p>
+		
+	</section>
+	<section class="image-section" data-aos="fade-right">
+		<img src="images/400-4008467_go-green-reduce-reuse-recycle-transparent-gif-hd.png" style="width: 90%; height: 90%;">
+	</section>	
+
+
+</div>
+</section>
+ 
+  <!-- End About Section -->
+
+	  <!-- Service Section -->
+	  <section id="services">
+		<div class="services_container">
+		  <div class = "row">
+			  <div class="row" data-aos="fade-left">
+			<h1 class="section-title">WHAT WE CAN DO </h1>
+		
+		
+			<p class = "para">These are just some of the recent experiments we have made using our Injection machine: these products are made by injecting hot plastic into aluminium molds. We are still experimenting with the Extruder machine to create a production line of baskets, bowls, lamps and jewellery. </p>
+		</div>
+		<div class="row">		
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+				<!--slide 1-->
+			<div class="swiper-slide">
+					<div class="column2">
+						<img class = "image" src="images/laundry.jpg" style="width:80%">
+			            <div class="title">Laundry Pegs</div>
+			       </div>
+			</div>
+			   <!--slide 1 end-->
+				<!--slide 2-->
+				<div class="swiper-slide"><div class="column2"><img class = "image" src="images/tiles.png" style="width:80%">
+				<div class="title">Tiles</div>
+				</div>
+				<!--slide 2 end-->
+		</div>
+		<!--slide 3-->
+		<div class="swiper-slide"><div class="column2"><img class = "image" src="images/buttons.jpg" style="width:80%">
+			<div class="title">Buttons</div>
+			</div>
+			<!--slide 3 end-->
+	</div>
+	<!--slide 4-->
+	<div class="swiper-slide"><div class="column2"><img class = "image" src="images/earings.jpg" style="width:80%">
+		<div class="title">Earrings</div>
+		</div>
+		<!--slide 4 end-->
+</div>
+<!--slide 5-->
+<div class="swiper-slide"><div class="column2"><img class = "image" src="images/ruler.jpg" style="width:80%">
+	<div class="title">Rulers</div>
+	</div>
+	<!--slide 5end-->
+</div>
+	</div>
+
+
+</div>
+</div>
+</div>
+	  </section>
+	  <!-- End Service Section -->
+
+	  <!--mission section-->
+	  <section id="mission">
+		<div class="mission_container">
+		  <div class = "row">
+			  <div class="row"data-aos="fade-left">
+			<h1 class="section-title">Mission</h1>
+			<p class = "para"> To create a greener Lesotho through plastic recycling</p>
+		</div>
+			<div id="detailss" class="row"data-aos="flip-left">
+			<div class="column">
+			  <img class = "point-img " src= "images/istockphoto-1165379982-612x612.jpg" style= 'width: 20rem; height:20rem; margin: -5px 0 0 -3px;'>
+			  <div class="tex" style="margin: 5px 0 0 0;">Sanitation<br>- Clean up the environment (creating more beautiful communities)</div>
+			</div>
+			<div class="column">
+				<img class = "point-img" src="images/269-2690047_recycle-icon-transparent-background.png" style= 'width: 20rem; height:20rem; margin: 0 0 0 -3px;'>
+				<div class="tex">Recycling<br>-	Divert plastic from becoming trash and polluting the environment</div>
+			  </div>
+			<div class="column">
+			  <img class = "point-img" src="images/istockphoto-1139754945-612x612.jpg" style= 'width: 30rem; height:20rem; margin-left: -40px;'>
+			  <div class="tex" style="margin: -10px 0 0 10px;">Awareness<br>-	Engage community members in environmental action through awareness campaigns, clean-ups and work-shops</div>
+			</div>
+			<div class="column">
+				<img class = "point-img" src="images/images.png" style= 'width: 30rem; height:20rem;'>
+				<div class="tex" style="margin: -10px 0 0 70px;">Waste Management<br>-	Provide sustainable plastic waste management options for households and businesses. </div>
+			</div>
+		</div>
+		</div>
+		</div>
+	  </section>
+	  <!--end of mission section-->
+
+<!--Vision section-->
+<section id = "vision">
+	<div class = "vision container"data-aos="fade-left">
+		<section class="img-section">
+			<img src="images/Screen-Shot-2021-04-22-at-9.01.37-PM-900x900.png" style="width: 90%; height: 90%;">
+		</section>
+	   <section class="tex-section">
+		   <h1 id="col-baby">Vision </h1>
+		   <p>In addition to being a regional recycling centre, we aim to provide an economic boost to the community of Morija and surrounding villages. Though we are starting small, our aim is to increase our production capacity to create employment for local people – both through the collection of plastic, and as part of our production staff.  
+
+			An essential part of our vision is the establishment of an on-going recycling outreach program (“Plastic Reach”) to be introduced in schools and community centers around the country. The aim of these sessions will be to raise awareness for environmentalism and also to encourage every-day climate activism that centers on taking action to improve our communities.  
+			
+			By adding value to plastic, we aim to change the way it is regarded in our society so that it is collected instead of disposed of. Plastic can then be delivered to our premises in exchange for credit, tokens or vouchers.
+		   </p>
+		   
+	   </section>
+	   	
+   </div>
+   </section>
+  <!--end of vision section-->
+
+	  <!--Opportunity section-->
+	  <section id = "opportunity" data-aos="fade-right">
+		<div class = "opportunity container">
+		   <section class="text-section">
+			   <h1 id="col-baby">Plastic REACH </h1>
+			   <p>The Plastic Reach project is targeting schools because of the existing set up of the school, in terms of space and children in one place, already students are taking turns in going to school and that eliminates traffic to be able to keep Covid-19 precautionary measures in mind. Our sessions can accommodate 60 students: this allows us to separate them into three groups of 20, who will be able to socially distance while carrying out the sessions (hence the three stations).
+			   </p>
+			   
+		   </section>
+		   <section class="image-section">
+			<img src="images/Recycle-right-illustration-768x614.jpg" style="width: 90%; height: 90%;">
+		</section>	
+	   </div>
+	   </section>
+	  <!--end of opportunity section-->
+
+	<!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container"data-aos="flip-right">
+      <div>
+        <h1 class="section-title">Contact info</h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="images/telephone+icon.png" width="35px" height="35px"/></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+266 63774170</h2>
+            <h2>+266 53146078 </h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="images/mail+icon.png" width="40px" height="40px"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>Phehaplastic@gmail.com</h2>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+  
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1>GET RECYCLING WITH US!</h1>
+      </div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/PhehaPlasticLESOTHO/"><img src="images/facebook+.png" width="40px" height="40px" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/pheha_plastic/?hl=en"><img src="images/instagram+.png" width="40px" height="40px" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://twitter.com/PhehaP?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="images/twitter+icon.png" width="40px" height="40px" /></a>
+        </div>
+	</div>
+    </div>
+  </section>
+  <!-- End Footer -->
+
+<script src="./js/nav.js"></script>	
+<script src="jsfile.js"></script>
+<script src="swiper.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 500,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+  <script src="aos.js"></script>
+  <script>
+	AOS.init({
+	  offset:260,
+	  duration:1000
+	});
+  </script>
+</body>
+</html>
+
+
