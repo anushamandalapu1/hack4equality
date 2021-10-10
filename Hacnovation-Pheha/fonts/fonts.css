@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "titillium-bold";
+  src: url("../fonts/Titillium-Bold.otf");
+}
+@font-face {
+  font-family: "titillium-semibold";
+  src: url("../fonts/Titillium-Semibold.otf");
+}
+@font-face {
+  font-family: "titillium-regular";
+  src: url("../fonts/Titillium-Regular.otf");
+}
